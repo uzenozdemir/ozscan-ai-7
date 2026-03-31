@@ -6,7 +6,7 @@
 // ─── API Key ─────────────────────────────────────────────────────────────────
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const ENV_KEY: string = (import.meta as any).env?.VITE_GEMINI_KEY ?? '';
-export const GEMINI_KEY: string = ENV_KEY || 'AIzaSyDKc8yUO8-eexkX9co9yga3eKz8hmugBwc';
+export const GEMINI_KEY: string = ENV_KEY || 'AIzaSyDkaHvabSyN_XKce7-PSuaUNQekl5GAQ2U';
 
 // ─── Model candidates ─────────────────────────────────────────────────────────
 //  gemini-1.5-flash on v1beta is the most stable & widely available.
